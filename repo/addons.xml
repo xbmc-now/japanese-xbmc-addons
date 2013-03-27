@@ -19,6 +19,25 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.nico"
+		name="XBMC nico"
+		version="1.7.0"
+		provider-name="s01149ht">
+	<requires>
+		<import addon="xbmc.python" version="1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.0.8"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>NICO NICO DOUGA plugin</summary>
+		<description>http://d.hatena.ne.jp/s01149ht/</description>
+		<disclaimer></disclaimer>
+	</extension>
+</addon>
+
 <addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.0" provider-name="xbmc_now">
 	<extension point="xbmc.addon.repository" name="Japanese XBMC Addon Repository">
 		<info compressed="false">https://raw.github.com/xbmc-now/japanese-xbmc-addons/master/repo/addons.xml</info>
