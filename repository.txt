@@ -1,0 +1,29 @@
+//------------------------------------------------------------------------------
+// japanese-xbmc-addons構成
+github: https://github.com/xbmc-now/japanese-xbmc-addons
+
+[/japanese-xbmc-addons]
+  │
+  [/repo]：リポジトリ（貯蔵庫）ディレクトリ
+    │
+    ├[/plugin.audio.radiko]：XBMC.radikoリポジトリ
+    │  └plugin.audio.radiko-0.0.12.zip：
+    │
+    ├[/repository.japanese]：リポジトリURLリポジトリ
+    │  └repository.japanese-1.0.0.zip
+    │
+    ├addons.xml：リポジトリURLリポジトリに記載されている。アドオンリストのファイル。
+    │            バージョンアップしたらこのファイルを編集。
+    │
+    └addons.xml.md5：addons.xmlのMD5情報を記載しておくファイル。ツールを使ってaddons.xmlのMD5を生成してください。
+
+
+//------------------------------------------------------------------------------
+// [/japanese-xbmc-addons/repo/addons.xml]
+
+それぞれのアドオン中にあるaddon.xmlというファイルの内容をコピーして<addons></addons>タグの間にいれます。
+addon.xmlのMD5ハッシュ値を生成して、addon.xml.md5に記載。
+
+「<addon id="plugin.audio.radiko"」と、記載している場合はリポジトリディレクトリにplugin.audio.radikoというディレクリを
+作らないといけません。また、その中に入れるアーカイブ名も、同じ名前に[-x.y.z.zip]のバージョン情報を記載する必要があります。
+
