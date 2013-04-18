@@ -56,7 +56,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.0" provider-name="xbmc_now">
+<addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.1" provider-name="xbmc_now">
 	<extension point="xbmc.addon.repository" name="Japanese XBMC Addon Repository">
 		<info compressed="false">https://raw.github.com/xbmc-now/japanese-xbmc-addons/master/repo/addons.xml</info>
 		<checksum>https://raw.github.com/xbmc-now/japanese-xbmc-addons/master/repo/addons.xml.md5</checksum>
