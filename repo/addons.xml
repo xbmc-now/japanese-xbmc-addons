@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.audio.radiko"
 			 name="Radiko"
-			 version="0.0.13"
+			 version="0.0.14"
 			 provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -40,7 +40,7 @@
 
 <addon id="plugin.video.dmm"
 	name="DMM"
-	version="0.0.1"
+	version="0.0.2"
 	provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
