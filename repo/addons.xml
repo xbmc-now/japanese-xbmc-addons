@@ -56,6 +56,22 @@
 	</extension>
 </addon>
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.tv-icon.jp"
+	name="Japanese Tv Icon"
+	version="0.0.1"
+	provider-name="xbmc_now">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+			<summary lang="ja">日本のテレビチャンネルアイコンを取得</summary>
+			<description lang="ja">ライブTVで使用する日本のテレビチャンネルアイコンをインターネットから取得する</description>
+			<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.0" provider-name="xbmc_now">
 	<extension point="xbmc.addon.repository" name="Japanese XBMC Addon Repository">
 		<info compressed="false">https://raw.github.com/xbmc-now/japanese-xbmc-addons/master/repo/addons.xml</info>
