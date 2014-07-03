@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.audio.radiko"
 			 name="Radiko"
-			 version="0.0.14"
+			 version="0.0.15"
 			 provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
