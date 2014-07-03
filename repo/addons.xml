@@ -73,7 +73,7 @@
 
 <addon id="plugin.video.dq10.livecam"
 	name="DragonQuest10 LiveCamera"
-	version="0.0.1"
+	version="0.0.2"
 	provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
