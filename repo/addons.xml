@@ -125,6 +125,24 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.idolmaster3d.youtube"
+	name="IDOLM@STER 3D"
+	version="0.0.1"
+	provider-name="xbmc_now">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="4.4.8" />
+	</requires>
+	<extension library="default.py" point="xbmc.python.pluginsource">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="ja">IDOLM@STER 3D</summary>
+			<description lang="ja">youtubeにアップされたアイドルマスター映像を3D化して表示します。</description>
+			<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.0" provider-name="xbmc_now">
 	<extension point="xbmc.addon.repository" name="Japanese XBMC Addon Repository">
 		<info compressed="false">https://raw.github.com/xbmc-now/japanese-xbmc-addons/master/repo/addons.xml</info>
