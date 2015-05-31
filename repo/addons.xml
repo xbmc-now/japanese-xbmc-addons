@@ -143,6 +143,72 @@
 	</extension>
 </addon>
 
+<addon id="plugin.audio.itunesconverter"
+	name="iTunes Playlist Converter"
+	version="1.0"
+	provider-name="kodiful">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">iTunes Playlist Converter</summary>
+		<summary lang="ja">iTunesプレイリストコンバータ</summary>
+		<description lang="en">Convert iTunes playlists to m3u/html</description>
+		<description lang="ja">iTunesプレイリストをm3u/htmlに変換します</description>
+		<disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
+		<disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+	</extension>
+</addon>
+
+<addon id="plugin.video.garapon.tv"
+	name="Garapon TV"
+	version="1.0.1"
+	provider-name="kodiful">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Garapon TV</summary>
+		<summary lang="ja">ガラポンTV</summary>
+		<description lang="en">Search &amp; Watch Garapon TV</description>
+		<description lang="ja">ガラポンTVを検索・視聴します</description>
+		<disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
+		<disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+	</extension>
+</addon>
+
+<addon id="plugin.audio.kodi.ra"
+	name="KodiRa"
+	version="1.0"
+	provider-name="kodiful">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.1"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">KodiRa</summary>
+		<summary lang="ja">KodiRa</summary>
+		<description lang="en">Listen to NHK Radio, Commercial Radio (radiko.jp) and Community SimulRadio (CSRA.fm)</description>
+		<description lang="ja">NHKラジオ(らじる★らじる), 民放ラジオ(radiko.jp), コミュニティサイマルラジオ(CSRA.fm)を聴くことができます</description>
+		<disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
+		<disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+	</extension>
+</addon>
+
 <addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.0" provider-name="xbmc_now">
 	<extension point="xbmc.addon.repository" name="Japanese XBMC Addon Repository">
 		<info compressed="false">https://raw.github.com/xbmc-now/japanese-xbmc-addons/master/repo/addons.xml</info>
