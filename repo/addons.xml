@@ -212,7 +212,7 @@
 <addon id="script.message.tv"
        name="Message TV"
        version="2.0"
-       provider-name="uchiyama@beige.ocn.ne.jp">
+       provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup4" version="4.3.1"/>
