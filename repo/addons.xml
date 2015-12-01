@@ -56,6 +56,24 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.weathernews"
+	name="WetherNews SoLive24"
+	version="0.0.1"
+	provider-name="dinosauria123">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>WetherNews SoLive 24 Add-on</summary>
+		<description>WetherNews SoLive 24 Add-on</description>
+		<disclaimer></disclaimer>
+	</extension>
+</addon>
+
 <addon id="script.tv-icon.jp"
 	name="Japanese Tv Icon"
 	version="0.0.1"
