@@ -109,7 +109,7 @@
 
 <addon id="plugin.video.oculus-rift.youtube"
 	name="Oculus Rift no Ana"
-	version="0.0.1"
+	version="0.0.2"
 	provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -127,7 +127,7 @@
 
 <addon id="plugin.video.youtube.3d"
 	name="Youtube 3D"
-	version="0.0.3"
+	version="0.0.4"
 	provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -145,7 +145,7 @@
 
 <addon id="plugin.video.idolmaster3d.youtube"
 	name="IDOLM@STER 3D"
-	version="0.0.1"
+	version="0.0.2"
 	provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
