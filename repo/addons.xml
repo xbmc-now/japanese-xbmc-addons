@@ -90,20 +90,20 @@
 </addon>
 
 <addon id="plugin.video.dq10.livecam"
-	name="DragonQuest10 LiveCamera"
+	name="DragonQuestX Live Camera"
 	version="0.0.3"
 	provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" version="4.4.8" />
+		<import addon="plugin.video.youtube" version="5.1.20" />
 	</requires>
 	<extension library="default.py" point="xbmc.python.pluginsource">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="ja">ドラゴンクエストXライブカメラ</summary>
-		<description lang="ja">ドラゴンクエストXのゲーム内に設置されたライブカメラを表示</description>
-		<platform>all</platform>
+			<summary lang="ja">ドラゴンクエストXライブカメラ</summary>
+			<description lang="ja">ドラゴンクエストXライブカメラ、youtubeアドオンバージョン5.1.20が必要です。plugin.video.youtube.zipをhttps://github.com/Kolifanes/plugin.video.youtubeからインストールしてください。</description>
+			<platform>all</platform>
 	</extension>
 </addon>
 
