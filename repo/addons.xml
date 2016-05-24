@@ -40,10 +40,15 @@
 
 <addon id="plugin.video.dmm"
 	name="DMM"
-	version="0.0.2"
+	version="0.0.3"
 	provider-name="xbmc_now">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.mechanize" version="0.2.6" />
+		<import addon="script.module.beautifulsoup" version="3.0.8"/>
+		<import addon="script.module.m3u8" version="0.2.2" />
+		<import addon="script.module.dateutil"/>
+		<import addon="script.module.simplejson"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
