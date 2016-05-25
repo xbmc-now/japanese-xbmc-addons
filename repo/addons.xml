@@ -255,6 +255,24 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.fukuichi"
+	name="Fukuichi"
+	version="1.0.0"
+	provider-name="xbmc_now">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>福一カメラ</summary>
+		<description>福島第一原子力発電所カメラ</description>
+		<disclaimer></disclaimer>
+	</extension>
+</addon>
+
 <addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.0" provider-name="xbmc_now">
 	<extension point="xbmc.addon.repository" name="Japanese XBMC Addon Repository">
 		<info compressed="false">https://raw.github.com/xbmc-now/japanese-xbmc-addons/master/repo/addons.xml</info>
