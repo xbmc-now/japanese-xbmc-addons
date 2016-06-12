@@ -211,7 +211,7 @@
 
 <addon id="plugin.audio.kodi.ra"
        name="KodiRa"
-       version="1.1.1"
+       version="2.0.1"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -225,8 +225,8 @@
     <platform>all</platform>
     <summary lang="en">KodiRa</summary>
     <summary lang="ja">KodiRa</summary>
-    <description lang="en">Listen to NHK Radio, Commercial Radio (radiko.jp) and Community SimulRadio (CSRA.fm)</description>
-    <description lang="ja">NHKラジオ(らじる★らじる), 民放ラジオ(radiko.jp), コミュニティサイマルラジオ(CSRA.fm)を聴くことができます</description>
+    <description lang="en">Listen to/Dump NHK Radio, Commercial Radio (radiko.jp), Community SimulRadio (CSRA.fm), Internet SimulRadio (jcbasimul.com)</description>
+    <description lang="ja">NHKラジオ（らじる★らじる）、民放ラジオ（radiko.jp）、コミュニティサイマルラジオ（CSRA.fm）、インターネットサイマルラジオ（jcbasimul.com）が提供する200局以上のインターネットラジオ放送局を聴いたり、番組をファイル保存できるKodiアドオンです</description>
     <disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
     <disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
   </extension>
