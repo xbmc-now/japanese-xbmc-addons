@@ -188,25 +188,25 @@
 </addon>
 
 <addon id="plugin.video.garapon.tv"
-	name="Garapon TV"
-	version="1.0.2"
-	provider-name="kodiful">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.pil" version="1.1.7"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Garapon TV</summary>
-		<summary lang="ja">ガラポンTV</summary>
-		<description lang="en">Search &amp; Watch Garapon TV</description>
-		<description lang="ja">ガラポンTVを検索・視聴します</description>
-		<disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
-		<disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
-	</extension>
+       name="Garapon TV"
+       version="1.0.3"
+       provider-name="kodiful">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pil" version="1.1.7"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Garapon TV</summary>
+    <summary lang="ja">ガラポンTV</summary>
+    <description lang="en">Search &amp; Watch Garapon TV</description>
+    <description lang="ja">ガラポンTVを検索・視聴します</description>
+    <disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
+    <disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+  </extension>
 </addon>
 
 <addon id="plugin.audio.kodi.ra"
