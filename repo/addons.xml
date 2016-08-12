@@ -21,7 +21,7 @@
 
 <addon id="plugin.video.nico"
 		name="XBMC nico"
-		version="1.7.7"
+		version="1.7.8"
 		provider-name="s01149ht">
 	<requires>
 		<import addon="xbmc.python" version="1.0"/>
@@ -295,15 +295,15 @@
         <summary lang='en'>Twitch video plugin</summary>
         <description lang='en'>Watch your favorite gaming streams!</description>
         <summary lang='es'>Twitch video plugin</summary>
-        <description lang='es'>¡Mira los streams de tus juegos favoritos!</description>
+        <description lang='es'>!Mira los streams de tus juegos favoritos!</description>
         <summary lang='fr'>Twitch video plugin</summary>
         <description lang='fr'>Regardez les streams de vos jeux favoris !</description>
         <summary lang='nl'>Twitch video plugin</summary>
         <description lang='nl'>Bekijk je favoriete gaming-streams!</description>
         <summary lang='no'>Tillegg for Twitch</summary>
-        <description lang='no'>Se dine favorittstrømmere!</description>
+        <description lang='no'>Se dine favorittstrommere!</description>
         <summary lang='pl'>Twitch video plugin</summary>
-        <description lang='pl'>Oglądaj ulubione programy TwitchTV!</description>
+        <description lang='pl'>Oglﾄ・aj ulubione programy TwitchTV!</description>
     </extension>
 </addon>
 
