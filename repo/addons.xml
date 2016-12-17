@@ -211,7 +211,7 @@
 
 <addon id="plugin.audio.kodi.ra"
        name="KodiRa"
-       version="2.0.1"
+       version="3.0"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -221,6 +221,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>audio</provides>
   </extension>
+  <extension point="xbmc.service" library="service.py"/>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">KodiRa</summary>
