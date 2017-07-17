@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.audio.radiko"
 			 name="Radiko"
@@ -21,7 +21,7 @@
 
 <addon id="plugin.video.nico"
 		name="XBMC nico"
-		version="1.7.9"
+		version="1.7.10"
 		provider-name="s01149ht">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
