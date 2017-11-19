@@ -168,7 +168,7 @@
 
 <addon id="plugin.audio.itunesconverter"
        name="iTunes Playlist Converter"
-       version="1.0.3"
+       version="1.1"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -182,8 +182,8 @@
     <summary lang="ja">iTunesプレイリストコンバータ</summary>
     <description lang="en">Convert iTunes playlists to m3u/html</description>
     <description lang="ja">iTunesプレイリストをm3u/htmlに変換します</description>
-    <disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
-    <disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+    <disclaimer lang="en">Works on Windows &amp; macOS</disclaimer>
+    <disclaimer lang="ja">WindowsとmacOSで動作</disclaimer>
   </extension>
 </addon>
 
@@ -211,7 +211,7 @@
 
 <addon id="plugin.audio.kodi.ra"
        name="KodiRa"
-       version="3.0"
+       version="4.1"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -226,33 +226,28 @@
     <platform>all</platform>
     <summary lang="en">KodiRa</summary>
     <summary lang="ja">KodiRa</summary>
-    <description lang="en">Listen to/Dump NHK Radio, Commercial Radio (radiko.jp), Community SimulRadio (CSRA.fm), Internet SimulRadio (jcbasimul.com)</description>
-    <description lang="ja">NHKラジオ（らじる★らじる）、民放ラジオ（radiko.jp）、コミュニティサイマルラジオ（CSRA.fm）、インターネットサイマルラジオ（jcbasimul.com）が提供する200局以上のインターネットラジオ放送局を聴いたり、番組をファイル保存できるKodiアドオンです</description>
-    <disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
-    <disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+    <description lang="en">Listen to NHK Radio/Commercial Radio (radiko.jp), Community SimulRadio (CSRA.fm) and Internet Simul Radio (jcbasimul.com)</description>
+    <description lang="ja">NHKラジオ/民放ラジオ(radiko.jp), コミュニティサイマルラジオ(CSRA.fm), インターネットサイマルラジオ(jcbasimul.com)を聴くことができます</description>
+    <disclaimer lang="en">Works on Windows &amp; macOS. Works on Kodi v16.1 “Jarvis”.</disclaimer>
+    <disclaimer lang="ja">WindowsとmacOSで動作。Kodi v16.1 “Jarvis” で動作。</disclaimer>
   </extension>
 </addon>
 
-<addon id="script.message.tv"
-       name="Message TV"
-       version="2.0"
-       provider-name="kodiful">
+<addon id="plugin.image.photosviewer" name="Photos Viewer" version="1.0" provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
-    <import addon="script.module.chardet" version="2.2.1"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+	  <provides>image</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Message TV</summary>
-    <summary lang="ja">メッセージTV</summary>
-    <description lang="en">Handle Mails/Messages on TV</description>
-    <description lang="ja">TVでメール/メッセージをやりとりします</description>
-    <disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
-    <disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+	  <platform>all</platform>
+	  <summary lang="en">Photos Viewer</summary>
+	  <summary lang="ja">写真ビューア</summary>
+	  <description lang="en">Browse pictures and videos of macOS Photos App</description>
+	  <description lang="ja">macOS写真アプリの写真と動画をブラウズ</description>
+    <disclaimer lang="en">Works on macOS</disclaimer>
+    <disclaimer lang="ja">macOSで動作</disclaimer>
   </extension>
 </addon>
 
