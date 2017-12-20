@@ -209,9 +209,10 @@
   </extension>
 </addon>
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.kodi.ra"
        name="KodiRa"
-       version="4.1"
+       version="5.0"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -226,10 +227,10 @@
     <platform>all</platform>
     <summary lang="en">KodiRa</summary>
     <summary lang="ja">KodiRa</summary>
-    <description lang="en">Listen to NHK Radio/Commercial Radio (radiko.jp), Community SimulRadio (CSRA.fm) and Internet Simul Radio (jcbasimul.com)</description>
-    <description lang="ja">NHKラジオ/民放ラジオ(radiko.jp), コミュニティサイマルラジオ(CSRA.fm), インターネットサイマルラジオ(jcbasimul.com)を聴くことができます</description>
-    <disclaimer lang="en">Works on Windows &amp; macOS. Works on Kodi v16.1 “Jarvis”.</disclaimer>
-    <disclaimer lang="ja">WindowsとmacOSで動作。Kodi v16.1 “Jarvis” で動作。</disclaimer>
+    <description lang="en">Listen to NHK Radio, Commercial Radio (radiko.jp) and others</description>
+    <description lang="ja">NHKラジオ, 民放ラジオ(radiko.jp)ほかを聴くことができます</description>
+    <disclaimer lang="en">Works on Windows &amp; macOS</disclaimer>
+    <disclaimer lang="ja">WindowsとmacOSで動作。</disclaimer>
   </extension>
 </addon>
 
