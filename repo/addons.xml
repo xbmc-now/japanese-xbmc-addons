@@ -236,7 +236,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.image.photosviewer" name="Photos Viewer" version="1.0" provider-name="kodiful">
+<addon id="plugin.image.photosviewer" name="Photos Viewer" version="1.0.1" provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -251,6 +251,7 @@
 	  <description lang="ja">macOS写真アプリの写真と動画をブラウズ</description>
     <disclaimer lang="en">Works on macOS</disclaimer>
     <disclaimer lang="ja">macOSで動作</disclaimer>
+    <website>http://kodiful.com/</website>
   </extension>
 </addon>
 
