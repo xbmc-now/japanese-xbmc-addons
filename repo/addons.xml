@@ -168,7 +168,7 @@
 
 <addon id="plugin.audio.itunesconverter"
        name="iTunes Playlist Converter"
-       version="1.1"
+       version="1.1.1"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -184,12 +184,13 @@
     <description lang="ja">iTunesプレイリストをm3u/htmlに変換します</description>
     <disclaimer lang="en">Works on Windows &amp; macOS</disclaimer>
     <disclaimer lang="ja">WindowsとmacOSで動作</disclaimer>
+    <website>http://kodiful.com/</website>
   </extension>
 </addon>
 
 <addon id="plugin.video.garapon.tv"
        name="Garapon TV"
-       version="1.0.4"
+       version="1.0.5"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -206,13 +207,13 @@
     <description lang="ja">ガラポンTVを検索・視聴します</description>
     <disclaimer lang="en">Works on Windows &amp; MacOSX</disclaimer>
     <disclaimer lang="ja">WindowsとMacOSXで動作</disclaimer>
+    <website>http://kodiful.com/</website>
   </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.kodi.ra"
        name="KodiRa"
-       version="5.0"
+       version="5.0.1"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -231,6 +232,7 @@
     <description lang="ja">NHKラジオ, 民放ラジオ(radiko.jp)ほかを聴くことができます</description>
     <disclaimer lang="en">Works on Windows &amp; macOS</disclaimer>
     <disclaimer lang="ja">WindowsとmacOSで動作。</disclaimer>
+    <website>http://kodiful.com/</website>
   </extension>
 </addon>
 
@@ -302,6 +304,28 @@
         <summary lang='pl'>Twitch video plugin</summary>
         <description lang='pl'>Oglądaj ulubione programy TwitchTV!</description>
     </extension>
+</addon>
+
+<addon id="script.incoming.call.notifier"
+       name="Incoming Call Notifier"
+       version="1.0.2"
+       provider-name="kodiful">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Incoming Call Notifier</summary>
+    <summary lang="ja">着信通知</summary>
+    <description lang="en">Notify incoming call to IP phone</description>
+    <description lang="ja">IP電話への着信を通知します</description>
+    <website>http://kodiful.com/</website>
+  </extension>
 </addon>
 
 <addon id="repository.japanese" name="Japanese XBMC Addons" version="1.0.0" provider-name="xbmc_now">
