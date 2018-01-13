@@ -213,7 +213,7 @@
 
 <addon id="plugin.audio.kodi.ra"
        name="KodiRa"
-       version="5.0.1"
+       version="5.1.1"
        provider-name="kodiful">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
