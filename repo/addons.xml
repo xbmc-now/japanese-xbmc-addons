@@ -21,7 +21,7 @@
 
 <addon id="plugin.video.nico"
 		name="XBMC nico"
-		version="1.7.11"
+		version="1.7.12"
 		provider-name="s01149ht">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
